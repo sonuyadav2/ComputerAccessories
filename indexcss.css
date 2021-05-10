@@ -1,0 +1,393 @@
+body{
+	color:black;
+	margin-bottom: 0px;
+	background-color: #6c6bfb;
+	size: 45px;
+	margin-top: 120px;
+}
+
+.nav{
+background-color: black;
+	color: red;
+	display: flex;
+	}
+.nav h2{
+	font-size: 22px;
+	margin-top: 25px;
+}
+.navfix{
+	position:fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9;
+}
+
+.nav1{
+	margin-left:30px;
+	width: auto;
+	height: 40px;
+
+	margin: 10px;
+	
+	background-image: none;
+}
+.ico{
+	padding-left: 10px;
+}
+.search-input{
+	width:515px;
+}
+
+.nav1 input{
+	width: 485px;
+	height: 30px;
+	outline: none;
+	border: none;
+	margin-top: 15px;
+	border-radius: 10px;
+	color:red;
+}
+
+input{
+		width: 500px;
+	}
+	li{
+		list-style: none;
+	}
+	input .active  ul li a{
+		opacity: 9;
+	}
+	
+	ul li a{
+		text-decoration: none;
+		color: red;
+		opacity: 0;
+	}
+    ul li a:hover{
+    	background-color: red;
+    	color: white;
+    	opacity: 9;
+    }
+    
+  .ico{
+	z-index: 9;
+	float: right;
+	margin-top: -200px;
+	color: red;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+
+.nav2{
+	float: right;
+	margin-top: 24px;
+}
+ .nav2 a{
+font-size: 22px;
+padding: 5px;
+text-decoration: none;
+color: red;
+
+}
+.fa-cart-arrow-down{
+padding: 5px;
+color: white
+}
+   button{
+
+  background-image: linear-gradient(30deg,red,yellow);
+		
+  color: white;
+        margin: 20px;
+ animation: yoyo 4s linear infinite;
+        padding: 20px;
+}
+@keyframes yoyo{
+    0%{
+        box-shadow: 0 0 0 8px red,0 0 0 8px red;
+    }
+    40%{
+        box-shadow: 0 0 0 8px yellow,0 0 0 8px yellow;
+    }
+    80%{
+        box-shadow: 0 0 0 8px blue ,0 0 0 8px blue;
+    }
+    100%{
+box-shadow: 0 0 0 0 8px green , 0 0 0 8px green;
+    }
+}
+
+
+
+.product1{
+    margin-top: 120px;
+	box-shadow: 0 2px 5px 1px solid black;
+	background-color: #8c004c;
+	font-size: 20px;
+}
+.product1 h1{
+	text-align: center;
+	text-decoration: underline;
+		text-shadow:  0 3px 5px red;
+	font-weight: bold;
+}
+.product1 img {
+	height: auto;
+	padding: 20px;
+	margin: 10px;
+}
+.product2{
+	box-shadow: 0 2px 5px 1px solid black;
+	background-color:#ed0091 ;
+	font-size: 25px;
+
+}
+.product2 h1{
+	text-align: center;
+	text-decoration: underline;
+	text-shadow:  0 3px 5px red;
+	font-weight: bold;
+}
+.product2 img {
+	height: auto;
+	padding: 20px;
+	margin: 10px;
+}
+
+.product3{
+
+	box-shadow: 0 2px 5px 1px solid black;
+	background-color:#ed4faf;
+	font-size: 20px;
+
+}
+.product3 h1{
+	text-align: center;
+	text-decoration: underline;
+		text-shadow:  0 3px 5px red;
+	font-weight: bold;
+}
+.product3 img {
+	height: auto;
+	padding: 20px;
+	margin: 10px;
+}
+
+
+.product4{
+
+	box-shadow: 0 2px 5px 1px solid black;
+	background-color: #ffa0cc;
+	font-size: 25px;
+}
+.product4 h1{
+	text-align: center;
+	text-decoration: underline;
+		text-shadow:  0 3px 5px red;
+	font-weight: bold;
+}
+.product4 img {
+	height: auto;
+	padding: 20px;
+	margin: 10px;
+}
+
+.product5{
+
+	box-shadow: 0 2px 5px 1px solid black;
+	background-color:#fc70ba;
+	font-size: 25px;
+}
+.product5 h1{
+	text-align: center;
+	text-decoration: underline;
+		text-shadow:  0 3px 5px red;
+	font-weight: bold;
+}
+.product5 img {
+	height: auto;
+	padding: 20px;
+	margin: 10px;
+}
+
+.product6{
+
+	box-shadow: 0 2px 5px 1px solid black;
+	background-color:#ed4faf;
+	font-size: 20px;
+	
+}
+.product6 h1{
+	text-align: center;
+	text-decoration: underline;
+		text-shadow:  0 3px 5px red;
+	font-weight: bold;
+}
+.product6 img {
+	height: auto;
+	padding: 20px;
+	margin: 10px;
+}
+
+.product7{
+
+	box-shadow: 0 2px 5px 1px solid black;
+	background-color:#e0219e;
+font-size: 25px;
+}
+.product7 h1{
+	text-align: center;
+	text-decoration: underline;
+		text-shadow:  0 3px 5px red;
+	font-weight: bold;
+}
+.product7 img {
+	height: auto;
+	padding: 20px;
+	margin: 10px;
+}
+
+.product8{
+
+	box-shadow: 0 2px 5px 1px solid black;
+	background-color: #ad0066;
+	font-size: 20px;
+}
+.product8 h1{
+	text-align: center;
+	text-decoration: underline;
+		text-shadow:  0 3px 5px red;
+	font-weight: bold;
+}
+.product8 img {
+	height: auto;
+	padding: 20px;
+	margin: 10px;
+}
+/*---------------CART CSS----------------*/
+
+.product-container{
+	max-width: 650px;
+	margin: 0 auto;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.product-container ion-icon{
+font-size: 25px;
+color: blue;
+margin-left: 10px;
+margin-right: 10px;
+cursor: pointer;
+
+}
+.product-header{
+	width: 100%;
+	max-width: 650px;
+	border-bottom: 4px solid black;
+	margin: 0 auto;
+	display:flex;
+	justify-content: flex-start;
+	}
+.product-title{
+	width: 45%;
+}
+.price{
+	width: 15%;
+	text-align: center;
+	display: flex;
+}
+.quantity{
+width: 30%;
+display: flex;
+align-items: center;
+
+}
+.total{
+	width: 10%;
+	display: flex;
+	align-items: center;
+}
+.prdouct{
+		width: 100%;
+	display: flex;
+	justify-content: space-around;
+align-items: center;
+padding: 10px 0;
+border-bottom: 4px solid black;
+margin-bottom: 20px;cc
+}
+.baskettotalcontainer{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	padding: 10px 0;
+
+}
+
+.baskettotaltitle{
+	width: 30%;
+}
+.baskettotal{
+	width: 10%;
+}
+/*--contact us --*/
+.table h1{
+	text-align: center;
+	text-decoration: underline;
+		text-shadow:  0 3px 5px red;
+	font-weight: bold;
+}
+.table-container{
+	margin-left: 25%;
+	margin-right: 25%;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	box-shadow: 4px 4px 16px  black;
+	background-image: linear-gradient(30deg,green,blue);
+}
+.table-container table {
+	margin: 20px;
+	border: 20px;
+	border: 2px solid black;
+	width: 90%;
+	height: 400px;
+	border-collapse: collapse;
+background-image: linear-gradient(30deg,red,yellow);
+}
+.table-container table th ,td {
+	border: 2px solid black;
+	text-align: center;
+}
+.table-container table td {
+	text-decoration: none;
+}
+.table-container table td :hover{
+	color: red;
+}
+/*--footer css--*/
+.footer{
+	width: 100%;
+	color: white;
+	font-size: 18px;
+	font-family: helvatica;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: black;
+
+}
+
+footer .social{
+	text-align: center;
+	color:red;
+	}
+footer .social a{
+	margin: 20px;
+	color:red;
+	font-size: 30px;
+
+}
